@@ -518,6 +518,7 @@ body {
 }
 .our-portfolio-link {
   display: block;
+  transition: transform var(--animation-speed);
 }
 .our-portfolio-link:hover .overlay,
 .our-portfolio-link:focus .overlay {
