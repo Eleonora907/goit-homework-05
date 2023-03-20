@@ -511,7 +511,7 @@ body {
     overflow: hidden;
   }
   
-.portfolio-item {
+.our-portfolio-item {
   max-width: 360px;
   width: 100%;
   position: relative;
@@ -519,11 +519,20 @@ body {
 .our-portfolio-link {
   display: block;
 }
-.our-portfolio-item:hover .overlay,
-.our-portfolio-item:focus .overlay {
+.our-portfolio-link:hover .overlay,
+.our-portfolio-link:focus .overlay {
   transform: translateY(0) var(--animation-speed);
 
 }
+/* .our-portfolio-link:hover,
+.our-portfolio-link:focus {
+  transform: translateY(0) var(--animation-speed);
+} */
+/* .our-portfolio-item:hover, 
+.our-portfolio-item:focus {
+  transform: translateY(0) var(--animation-speed);
+
+} */
 
 .our-works-desc-section {
   text-align: left;
